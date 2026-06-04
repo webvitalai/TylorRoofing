@@ -31,7 +31,7 @@ export default function MainLayout() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/447472319187"
+        href="https://wa.me/447402926246"
         target="_blank"
         rel="noreferrer"
         className="whatsapp-float-btn"
