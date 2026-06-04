@@ -19,7 +19,7 @@ export default function Contact() {
   const [search, setSearch] = useState("");
 
   const phoneDisplay = "07402 926 246";
-  const phoneHref = "tel:07402926246";
+  const phoneHref = "tel:+447402926246";
   const whatsappHref = "https://wa.me/447402926246";
 
   const services = [
@@ -140,10 +140,10 @@ export default function Contact() {
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.111358503463!2d-2.9064859231583933!3d53.377056972425095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b21de314c9941%3A0x6f5aab759bb58b23!2sTAYLOR%20ROOFING!5e0!3m2!1sen!2s!4v1779523587207!5m2!1sen!2s"
                     width="100%"
                     height="450"
-                    style="border:0; border-radius:16px;"
-                    allowfullscreen=""
+                    style={{ border: 0, borderRadius: "16px" }}
+                    allowFullScreen
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
+                    referrerPolicy="no-referrer-when-downgrade"
                   ></iframe>
                 </div>
               </div>
